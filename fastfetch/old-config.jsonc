@@ -1,0 +1,67 @@
+{
+  "logo": "/home/acc.cravenj6/.config/fastfetch/logo.txt",
+  "display": {
+    "separator": "  ",
+    "size": {
+      "binaryPrefix": "si",
+      "maxPrefix": "GB",
+      "ndigits": 2,
+    },
+    "color": {
+      "keys": "default",
+      "output": "red",
+    },
+  },
+  "modules": [
+    {
+      "type": "title",
+      "format": "╭─────────┤           in ❄ speramus         ├─────────╮",
+    },
+    {
+      "type": "os",
+      "key": "os        ",
+      "format": "{3} {10}",
+    },
+    {
+      "type": "uptime",
+      "key": "uptime    ",
+    },
+    {
+      "type": "cpu",
+      "key": "cpu       ",
+      "format": "{1}",
+    },
+    {
+      "type": "gpu",
+      "key": "gpu       ",
+      "format": "{1} {2} {4}",
+    },
+    {
+      "type": "disk",
+      "key": "disk      ",
+      "format": "{1} / {2} ({3})",
+    },
+    {
+      "type": "memory",
+      "key": "memory    ",
+    },
+    {
+      "type": "localip",
+      "key": "local ip  ",
+    },
+    {
+      "type": "publicip",
+      "key": "public ip ",
+    },
+    {
+      "type": "separator",
+      "string": "╰─────────────────────────────────────────────────────╯",
+      "length": 1,
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 14,
+    },
+  ]
+}

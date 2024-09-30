@@ -1,0 +1,10 @@
+date:
+  day-old: green
+  hour-old: green
+  older: green
+group: red
+size:
+  large: dark_red
+  medium: yellow
+  small: grey
+user: red

@@ -1,0 +1,108 @@
+{
+    "logo": {
+        "source": "/home/acc.cravenj6/.config/fastfetch/logo.txt",
+        "color": {
+            "1": "red",
+            "2": "white"
+        }
+    },
+    "display": {
+        "separator": "  ",
+        "size": {
+            "binaryPrefix": "si",
+            "maxPrefix": "TB",
+            "ndigits": 2
+        },
+        "color": {
+            "keys": "red",
+            "output": "default"
+        },
+        "bar": {
+            "charElapsed": "=",
+            "charTotal": "=",
+            "borderLeft": "[",
+            "borderRight": "]"
+        },
+        "percent": {
+            "green": "red",
+            "yellow": "red",
+            "red": "red"
+        }
+    },
+    "modules": [
+        {
+            "type": "title",
+            "format": "\u001b[31m┌──────────── {1} ────────────┐"
+        },
+        {
+            "type": "OS",
+            "key": "  λ",
+            "format": "{1} ({2})"
+        },
+        {
+            "type": "DateTime",
+            "key": "  τ",
+            "format": "{14}:{18}:{20}"
+        },
+        {
+            "type": "Uptime",
+            "key": "  υ",
+            "format": "{1}d {2}h {3}m"
+        },
+        {
+            "type": "PublicIP",
+            "key": "  ψ",
+            "format": "{1}"
+        },
+        {
+            "type": "custom",
+            "key": "├──────────── Hardware ────────────┤",
+            "keyColor": "red"
+        },
+        {
+            "type": "CPU",
+            "key": "  ς",
+            "format": "{1}"
+        },
+        {
+            "type": "GPU",
+            "key": "  Γ",
+            "format": "{1} {2}"
+        },
+        {
+            "type": "Host",
+            "key": "  δ",
+            "format": "{5} {1}"
+        },
+        {
+            "type": "Board",
+            "key": "  μ",
+            "format": "{2} {1}"
+        },
+        {
+            "type": "Bios",
+            "key": "  β",
+            "format": "{3} {4}"
+        },
+        {
+            "type": "Memory",
+            "key": "  ρ",
+            "format": "{4} {3}"
+        },
+        {
+            "type": "Disk",
+            "key": "  Δ",
+            "format": "{13} {3}"
+        },
+        {
+            "type": "custom",
+            "key": "└──────────────────────────────────┘",
+            "keyColor": "red"
+        },
+        {
+            "type": "Colors",
+            "symbol": "diamond",
+            "paddingLeft": 11
+        }
+    ]
+}

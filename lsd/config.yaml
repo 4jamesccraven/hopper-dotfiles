@@ -1,0 +1,15 @@
+blocks:
+- permission
+- user
+- group
+- date
+- size
+- name
+color:
+  theme: custom
+date: +%D
+sorting:
+  dir-grouping: first
+symlink-arrow: ->
+icons:
+  theme: unicode
