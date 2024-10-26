@@ -8,8 +8,8 @@
 !fastfetch/
 !nvim/
 
-!bat/*
-!lsd/*
-!kitty/*
-!fastfetch/*
-!nvim/*
+!bat/**
+!lsd/**
+!kitty/**
+!fastfetch/**
+!nvim/**

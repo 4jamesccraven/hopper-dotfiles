@@ -19,6 +19,9 @@ vim.opt.hlsearch = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+-- Vertical split
+vim.o.splitright = true
+
 -- Transparent Background
 vim.cmd.highlight({ "Normal", "guibg=NONE", "ctermbg=NONE" })
 vim.cmd.highlight({ "NonText", "guibg=NONE", "ctermbg=NONE" })
