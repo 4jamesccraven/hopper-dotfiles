@@ -11,5 +11,3 @@ date: +%D
 sorting:
   dir-grouping: first
 symlink-arrow: ->
-icons:
-  theme: unicode
