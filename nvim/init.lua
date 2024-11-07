@@ -56,3 +56,9 @@ vim.cmd [[set background=dark]]
 vim.cmd [[colorscheme gruvbox]]
 
 require("config.lazy")
+
+vim.api.nvim_create_autocmd("CursorHold", {
+                    callback = function()
+                        vim.diagnostic.open_float(nil, { focusable = false })
+                    end
+                })

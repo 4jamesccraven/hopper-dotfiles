@@ -20,7 +20,7 @@
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
-# font_size 11.0
+# font_size 13.0
 
 #: Font size (in pts).
 
@@ -2590,3 +2590,9 @@ background_opacity 0.9
 #: }}}
 
 #: }}}
+
+
+# BEGIN_KITTY_THEME
+# Gruvbox Dark
+include current-theme.conf
+# END_KITTY_THEME
