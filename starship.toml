@@ -1,0 +1,42 @@
+add_newline = false
+format = "$username[@](red)$hostname: $os$directory$git_branch$git_status$git_metrics$rust$python\n[=> ](red)"
+
+[directory]
+format = "[\\[](red)[$path]($style)[$read_only]($read_only_style)[\\]](red) "
+style = "none"
+truncate_to_repo = false
+
+[git_branch]
+style = "red"
+
+[git_metrics]
+disabled = false
+format = "(\\([+$added]($added_style) [-$deleted]($deleted_style)\\) )"
+
+[git_status]
+style = "bold red"
+
+[hostname]
+format = "[$hostname]($style)"
+ssh_only = false
+style = "red"
+
+[os]
+disabled = false
+
+[python]
+format = "[${symbol} ${version}( \\(${virtualenv}\\))]($style) "
+style = "bold blue"
+symbol = ""
+
+[rust]
+format = "[$symbol $numver]($style) "
+style = "bold red"
+symbol = ""
+
+[username]
+format = "[/ˈiː.ən/]($style)"
+show_always = true
+style_root = "none"
+style_user = "none"
+
