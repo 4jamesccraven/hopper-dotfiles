@@ -1,6 +1,8 @@
 *
 
 !.gitignore
+!.bashrc
+!.zshrc
 !starship.toml
 
 !bat/
